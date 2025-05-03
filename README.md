@@ -36,7 +36,7 @@ dpdzero/
 │
 ├── agent_performance_summary.csv # Output report file
 └── README.md                # Project documentation
-
+```
 
 ## Inputs and Outputs
 
@@ -84,7 +84,7 @@ The pipeline expects the following CSV files as input:
 
    ```bash
    pip install pandas argparse
-```
+   ```
 
 2. **Place the CSV files**:
 
@@ -97,7 +97,7 @@ Ensure the call_logs.csv, agent_roster.csv, and disposition_summary.csv files ar
    ```bash
    python src/main.py --calls data/call_logs.csv --agents data/agent_roster.csv --disposition data/disposition_summary.csv
 
-```
+   ```
 
 4. **Check the outputs**:
 
