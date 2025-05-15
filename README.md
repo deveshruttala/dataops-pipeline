@@ -1,8 +1,8 @@
-# DPDzero DataOps Pipeline
+#  DataOps Pipeline
 
 ## Project Overview
 
-The DPDzero DataOps Pipeline is designed to handle daily call campaign data for loan collections. It reads, processes, merges, and generates performance metrics for agents based on call logs, agent rosters, and disposition summaries. The pipeline includes steps for data ingestion, validation, joining, feature engineering, and reporting. It is built to simulate a real-world data pipeline with a focus on improving loan collection processes through analysis of agent performance.
+The  DataOps Pipeline is designed to handle daily call campaign data for loan collections. It reads, processes, merges, and generates performance metrics for agents based on call logs, agent rosters, and disposition summaries. The pipeline includes steps for data ingestion, validation, joining, feature engineering, and reporting. It is built to simulate a real-world data pipeline with a focus on improving loan collection processes through analysis of agent performance.
 
 
 ## Tech Stack
@@ -16,7 +16,7 @@ The DPDzero DataOps Pipeline is designed to handle daily call campaign data for 
 ## Project Structure
 
 ```plaintext
-dpdzero/
+/
 │
 ├── data/                    # Input CSV data files
 │   ├── call_logs.csv        # Call log data
